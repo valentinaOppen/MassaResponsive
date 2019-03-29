@@ -38,12 +38,13 @@
         grid-column-gap: 3%;
         width: 60%;
         row-gap: 3%;
-        height:250vh;
+        height: fit-content;
+        padding-bottom: 10em;
     }
 
     .titleSitios 
     {        
-        font-family: chivoBold;
+        font-family: chivoBold;        
     }
 
     .massaDirecto
@@ -68,12 +69,19 @@
     {        
         border-radius: 7%;
         font-size:1em;
+        grid-template-rows: 35% 15% 55%;
     }
 
     .titleOverlay
     {        
-        padding-top:3rem;
+        padding-top:2rem;
+        font-size:1.2em;
         /* font-size:5vw;         */
+    }
+
+    .textOverlay
+    {
+        font-size:1em;
     }
 
     /* .navBarBottom
@@ -175,7 +183,9 @@
 
     .gridSitios
     {
-        height: 95vh;
+        /* height: 95vh; */
+        height: fit-content;
+        padding-bottom:6em;
     }
 
     .massaDirecto
