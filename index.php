@@ -89,11 +89,14 @@
                     <div class="form-group">
                         <input name="Email" type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="Email">
                     </div>
-                    <button id="btnEnviar" type="submit" class="btn btn-primary">ENVIAR</button>
+                    <div id="alert" class="alert alert-success hidden" role="alert">
+                        <span id="responseMessage"></span>
+                    </div>      
+                    <div id="alertError" class="alert alert-danger hidden" role="alert">
+                        <span id="responseMessageError"></span>
+                    </div>                          
+                    <button id="btnEnviar" type="submit" class="btn btn-primary">ENVIAR</button> 
                 </form>  
-                <div id="alert" class="alert alert-success hidden" role="alert">
-                    <span id="responseMessage"></span>
-                </div>                            
             </div>     
                        
             
