@@ -9,7 +9,6 @@
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesResponsive.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <script src="main.js"></script>
 </head>
 <body>
         <div class="gridMenuTop">
@@ -82,16 +81,19 @@
                 <p id="titleFormulario">Sumate a nuestra alternativa</p>    
                 <form id="formulario">                    
                     <div class="form-group">                    
-                        <input class="form-control form-control-lg" type="text" placeholder="Nombre">
+                        <input name="Nombre" class="form-control form-control-lg" type="text" placeholder="Nombre">
                     </div>
                     <div class="form-group">
-                        <input class="form-control form-control-lg" type="text" placeholder="Lugar">
+                        <input name="Lugar" class="form-control form-control-lg" type="text" placeholder="Lugar">
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="Email">
+                        <input name="Email" type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="Email">
                     </div>
                     <button id="btnEnviar" type="submit" class="btn btn-primary">ENVIAR</button>
-                </form>                        
+                </form>  
+                <div id="alert" class="alert alert-success hidden" role="alert">
+                    <span id="responseMessage"></span>
+                </div>                            
             </div>     
                        
             
@@ -109,6 +111,8 @@
         </div>
     </div>
         </div>        
-    </div>    
+    </div>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>  
 </body>
 </html>
