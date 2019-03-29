@@ -1,0 +1,240 @@
+@media screen and (max-width: 1250px)  
+{
+    .gridPrincipal
+    {
+        grid-template-rows: 100vh 100vh auto 92vh 55px;
+
+    }
+
+    .gridSitios 
+    {
+        height: fit-content;
+        padding-bottom:10vw;
+    }
+}
+
+@media screen and (max-width: 780px)  
+{
+    .gridPrincipal{
+        grid-template-rows: 100vh 100vh auto 92vh 8vh;
+    }
+
+    #navMenuTop
+    {
+        /* width: 80%; */
+        width: 100%;
+    }
+
+    .gridSitiosPrincipal
+    {
+        text-align:center;
+        grid-template-rows: 12% 88%;  
+    }
+
+    .gridSitios 
+    {
+        grid-template-columns: 1fr;
+        grid-template-rows: 55vw 55vw 55vw;
+        grid-column-gap: 3%;
+        width: 60%;
+        row-gap: 3%;
+        height:250vh;
+    }
+
+    .titleSitios 
+    {        
+        font-family: chivoBold;
+    }
+
+    .massaDirecto
+    {
+        background-image: url(img/massaDirecto_mobile.jpg);
+        /* height: fit-content !important; */
+    }
+
+    .argentinaDePie
+    {
+        /* height: fit-content !important;         */
+        background-image: url(img/argentinaDePie_mobile.jpg);
+    }
+
+    .primerVotante
+    {
+        /* height: fit-content !important; */
+        background-image: url(img/primerVotante_mobile.jpg);    
+    }
+
+    .divOverlayText 
+    {        
+        border-radius: 7%;
+        font-size:1em;
+    }
+
+    .titleOverlay
+    {        
+        padding-top:3rem;
+        /* font-size:5vw;         */
+    }
+
+    /* .navBarBottom
+    {
+        font-size: 2.4vw;
+    } */
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) 
+{
+      
+    .gridPrincipal
+    {
+        grid-template-rows:100vh 70vh auto 52vh 55px;
+    }
+
+    .gridSitios
+    {
+        height: 150vh;
+    }
+/* 
+    .navBarBottom
+    {
+        padding-top:2.5%;
+    } */
+
+    .massaDirecto
+    {
+        background-image: url(img/massaDirecto_op.jpg);        
+    }
+
+    .argentinaDePie
+    {
+        background-image: url(img/argentinaDePie_op.jpg);        
+    }
+
+    .primerVotante
+    {
+        /* border:solid #00C2EA 14px;
+        border-radius: 10%; */
+        background-image: url(img/primerVotante_op.jpg);    
+        /* background-size:cover;
+        background-repeat: no-repeat; */
+    }
+
+    .divOverlayText
+    {
+        opacity:0.6;
+        /* font-size:3.5vw; */
+    }
+}
+
+@media only screen and (min-device-width : 300px) and (max-device-width : 767px) 
+{ 
+    .gridPrincipal
+    {
+        grid-template-rows: 100vh auto auto 52vh 55px;
+    }
+
+    .gridMenuTop
+    {
+        grid-template-columns: 1fr;
+    }
+
+    #navMenuTop 
+    {
+        display: none;
+    }   
+
+    /* .navBarBottom
+    {
+        padding-top:1.5%;
+    } */
+    
+    .divHome
+    {
+        background-image: url(img/foto-sm_mobile.jpg);
+        background-attachment: fixed;
+        background-size:cover;    
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .divSlogan
+    {
+        height:50vh;
+    }
+
+    #textPub
+    {
+        font-size:1.2em;
+    }
+
+    #textPubTwitter
+    {
+        font-size:1.3em;
+    }
+
+    .gridSitios
+    {
+        height: 95vh;
+    }
+
+    .massaDirecto
+    {
+        background-image: url(img/massaDirecto_op.jpg);        
+    }
+
+    .argentinaDePie
+    {
+        background-image: url(img/argentinaDePie_op.jpg);        
+    }
+
+    .primerVotante
+    {
+        /* border:solid #00C2EA 14px;
+        border-radius: 10%; */
+        background-image: url(img/primerVotante_op.jpg);    
+        /* background-size:cover;
+        background-repeat: no-repeat; */
+    }
+
+    .divOverlayText
+    {
+        opacity:0.6;
+        /* font-size:0.5em; */
+    }
+
+    .titleOverlay
+    {
+        padding-top: 15%;
+        font-size: 0.7em;
+    }
+
+    .textOverlay 
+    {
+        padding-bottom: 15%;
+        font-size:0.7em;
+    }
+
+    #titleFormulario
+    {
+        /* font-size:6vw; */
+        text-align: center !important;
+    }
+
+    .hayAlternativa
+    {
+        display: none;
+    }
+    
+    .divRedesBottom
+    {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width:50%;
+        white-space: nowrap;
+        text-align: center;
+        margin:auto;
+        font-size:20px;
+        padding-top:3%;
+    }
+}

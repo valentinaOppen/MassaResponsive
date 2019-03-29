@@ -1,0 +1,362 @@
+@font-face
+{
+    font-family: chivoBold;
+    src:url(font/Chivo-Bold.otf);
+}
+@font-face
+{
+    font-family: chivoBlack;
+    src:url(font/Chivo-Black.otf);
+}
+
+@font-face
+{
+    font-family: chivoLight;
+    src:url(font/Chivo-Light.otf);
+}
+
+@font-face
+{
+    font-family: chivoReg;
+    src:url(font/Chivo-Regular.otf);
+}
+
+body
+{
+    font-family: chivoLight !important;
+}
+
+html { font-size: calc(1em + 1vw) }
+
+a
+{
+    text-decoration: none;
+    color:white;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+hr
+{
+    width: 100%;
+    border-top:solid white 1px;
+}
+
+.gridPrincipal
+{
+    display: grid;
+    width:100%;        
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 7.5vh 100vh 100vh 100vh 92vh 55px; */
+    grid-template-rows: 100vh 100vh 100vh 92vh 55px;
+
+}
+
+.gridMenuTop
+{    
+    width:100%;
+    position:fixed;
+    display:grid;
+    grid-template-columns: 60% 40%;  
+    background-color:#696969;      
+    opacity: 0.6;  
+    height: 55px;
+    /* color:white;       */
+}
+
+#navMenuTop
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width:60%;
+    column-gap: 3%;
+    white-space: nowrap;
+    text-align: center;
+    margin:auto 0 auto 8%;
+    font-size:0.6em;
+}
+
+#navRedesTop
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width:50%;
+    white-space: nowrap;
+    text-align: center;
+    margin:auto;
+    font-size:20px;
+}
+
+.divHome
+{
+    background-image: url(img/foto-sm.jpg);
+    background-attachment: fixed;
+    background-size:cover;    
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.divSlogan
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70% 30%;
+    background-color: white;            
+}
+
+#textPub
+{    
+    font-size:1.8em;
+    font-family: chivoBold;
+    text-justify: center;
+    margin:auto;
+    text-align: left; 
+    color:#696969;
+    width:70%;
+}
+
+#textPubTwitter
+{
+    font-size:2em;    
+    padding-bottom:7%;
+    text-justify: left;
+    margin:auto;
+    text-align: left; 
+    color:#0091C5;
+    width:70%;
+}
+
+.gridSitiosPrincipal
+{
+    background-color:#00A2DD;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25% 75%;        
+}
+
+.divTitleSitios
+{
+    display:grid;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "empty"    
+                        "title";
+    color:white;    
+    font-size:1.5em;
+    font-family: chivoBold;
+    margin:0 auto;
+    justify-self: end;
+    width:80%;    
+}
+
+.titleSitios
+{
+    grid-area: title;
+}
+
+.gridSitios
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 27vw;
+    grid-column-gap: 10%;    
+    width:80%;
+    margin:0 auto;
+}
+
+.divImgSitio
+{
+    border:solid #00C2EA 14px;
+    border-radius: 10%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    /* height: fit-content; */
+}
+
+.img-thumbnail {
+    padding: unset;
+    background-color:transparent;
+    border: none;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.massaDirecto
+{
+    /* border:solid #00C2EA 14px;
+    border-radius: 10%; */
+    background-image: url(img/massaDirecto.jpg);
+    /* background-repeat: no-repeat;
+    background-size:cover; */
+}
+
+.argentinaDePie
+{
+    /* border:solid #00C2EA 14px;
+    border-radius: 10%; */
+    background-image: url(img/argentinaDePie.jpg);
+    /* background-repeat: no-repeat;
+    background-size:cover; */
+}
+
+.primerVotante
+{
+    /* border:solid #00C2EA 14px;
+    border-radius: 10%; */
+    background-image: url(img/primerVotante.jpg);    
+    /* background-size:cover;
+    background-repeat: no-repeat; */
+}
+
+.divOverlayText
+{
+    display:grid;
+    grid-template-columns: 1fr;  
+    grid-template-rows: 30% 15% 55%;  
+    height:100%;
+    background-color:#00575E;
+    background-size: 100%;    
+    opacity:0;      
+    transition: .5s ease;    
+    padding:0 2vw 0 2vw;
+    font-size:1.2vw;
+    color:white;
+    border-radius: 7%;
+    text-align: center;
+    font-family: chivoBold;
+}
+
+.titleOverlay
+{
+    margin:auto;    
+    padding-top:1.5rem;
+    font-size:1.5em;
+    /* font-size:1.5vw; */
+}
+
+/* .titleOverlayArg
+{
+    margin:auto;    
+    padding-top:1.5rem;
+    font-size:1.2em;
+} */
+
+.textOverlay
+{
+    margin:auto;
+    font-family: chivoLight;
+    padding-bottom:45%;
+}
+
+.massaDirecto:hover .divOverlayText
+{
+    opacity: 0.6;    
+    /* display:grid; */
+}
+
+.argentinaDePie:hover .divOverlayText
+{
+    opacity: 0.6;
+}
+
+.primerVotante:hover .divOverlayText
+{
+    opacity: 0.6;
+}
+
+.divGridForm
+{
+    background-color: #00BFDF;
+}
+
+.gridForm
+{    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30% 70%;
+    width:80%;
+    margin:auto;
+    height: 100%;
+}
+
+#titleFormulario
+{
+    color:white;
+    font-family: chivoBold;
+    text-align: left !important;
+    font-size:1.5em;
+    margin-top:auto;    
+}
+
+.form-control
+{
+    border-radius: 0 !important;
+    border: 0.1vw solid #528B97 !important;;
+}
+
+.form-control-lg {
+    height: calc(1em + 1rem + 2px);
+    padding: .5rem 1rem;
+    font-size: 0.7rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+
+#btnEnviar
+{
+    background-color:#696969 !important; 
+    margin-top:3.5%;
+    border-radius: 0;
+    border:none;
+    font-size:0.7em;
+}
+
+#btnEnviar :active
+{
+    background-color:white;
+}
+
+.footer
+{
+    background-color:#696969;
+    
+} 
+
+.navBarBottom
+{
+    width:78vw;
+    height:55px;
+    margin:0 auto;
+    display: flex;
+    /* font-size:1.5vw; */
+}
+
+.divRedesBottom
+{    
+    text-align: left;   
+    width: 50%; 
+    white-space: nowrap;
+    margin:auto;
+    font-size:0.8em;    
+}
+
+.hayAlternativa
+{
+    text-align: right;
+    width: 50%;
+    margin:auto;
+    font-size:0.8em;
+    font-family: chivoLight;
+    color:white;
+}
+
+.fabBottom
+{
+    padding-left:2vw !important;    
+}
