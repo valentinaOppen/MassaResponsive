@@ -37,7 +37,7 @@ $mail->SMTPAuth = true;
 $mail->Host = "c0990242.ferozo.com"; 
 // Correo completo a utilizar
 $mail->Username = "comunicacion@sergiomassa.com.ar"; 
-$mail->Password = "6*@S*WL5eZ"; // Contraseña
+$mail->Password = "6*@S*WL5eZ1"; // Contraseña
 $mail->Port = 465; // Puerto a utilizar
 $mail->SMTPSecure = 'ssl';
 $mail->CharSet = "utf-8";
