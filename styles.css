@@ -311,7 +311,7 @@ hr
 #btnEnviar
 {
     background-color:#696969 !important; 
-    margin-top:3.5%;
+    /*margin-top:3.5%;*/
     border-radius: 0;
     border:none;
     font-size:0.7em;
@@ -320,6 +320,25 @@ hr
 #btnEnviar :active
 {
     background-color:white;
+}
+
+#alert
+{
+    
+}
+
+.alert-success {
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.alert {
+    position: relative;
+    padding: 0rem 0rem;
+    margin-bottom: 1rem;
+    border: none;
+    font-size:0.9em;
 }
 
 .footer

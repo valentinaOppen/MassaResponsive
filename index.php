@@ -6,9 +6,11 @@
     <title>Sergio Massa</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/_MassaOficial.png" />  
+	<link rel="stylesheet" type="text/css" media="screen" href="styles.css">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesResponsive.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
         <div class="gridMenuTop">
@@ -37,7 +39,7 @@
         <div class="gridSitiosPrincipal" id="Sitios">
             <div class="divTitleSitios"><div class="titleSitios" >Visita nuestros sitios</div></div>
             <div class="gridSitios">
-                    <div class="massaDirecto divImgSitio" id="divImagenesSitios" target="_blank" style="cursor: pointer;" onclick="window.open('http://www.sergiomassa.com.ar')">                
+                    <div class="massaDirecto divImgSitio" id="divImagenesSitios" target="_blank" style="cursor: pointer;" onclick="window.open('http://www.massadirecto.com/')">                
                         <div class="divOverlayText">                                            
                             <div class="titleOverlay">
                                 Massa Directo
@@ -61,7 +63,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="primerVotante divImgSitio" id="divImagenesSitios" style="cursor: pointer;" onclick="window.open('https://www.argentina.gob.ar/justiciacerca/votoprimeravez')">                                                                                                                                       
+                    <div class="primerVotante divImgSitio" id="divImagenesSitios" style="cursor: pointer;" onclick="window.open('http://www.primervotante.com')">                                                                                                                                       
                     <div class="divOverlayText">
                         <div class="titleOverlay">
                             Primer Votante
@@ -91,10 +93,7 @@
                     </div>
                     <div id="alert" class="alert alert-success hidden" role="alert">
                         <span id="responseMessage"></span>
-                    </div>      
-                    <div id="alertError" class="alert alert-danger hidden" role="alert">
-                        <span id="responseMessageError"></span>
-                    </div>                          
+                    </div>                           
                     <button id="btnEnviar" type="submit" class="btn btn-primary">ENVIAR</button> 
                 </form>  
             </div>     
@@ -106,7 +105,7 @@
                         <a href="https://twitter.com/SergioMassa" target="_blank"><i style="padding:0" class="fab fa-twitter"></i></a>
                         <a href="https://www.facebook.com/SergioMassaOK/" target="_blank"><i style="padding:0" class="fab fa-facebook-f fabBottom"></i></a>
                         <a href="https://www.instagram.com/sergiomassaok" target="_blank"><i style="padding:0" class="fab fa-instagram fabBottom"></i></a>
-                        <a href="https://twitter.com/SergioMassa" target="_blank"><i style="padding:0" class="fab fa-linkedin fabBottom"></i></a>
+                        <a href="https://www.linkedin.com/in/massasergio/" target="_blank"><i style="padding:0" class="fab fa-linkedin fabBottom"></i></a>
                 </div>
                 <div class="hayAlternativa">
                     #HayAlternativa
@@ -115,7 +114,11 @@
     </div>
         </div>        
     </div>  
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/main.js"></script>  
+	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+    <script src="js/jquery.localscroll.js" type="text/javascript"></script>
+	<script src="js/jquery.scrollTo.js" type="text/javascript"></script> 			
+    <script src="js/main.js"></script>  	
 </body>
 </html>

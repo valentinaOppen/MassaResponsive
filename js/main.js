@@ -1,5 +1,7 @@
 $(document).ready(function() {
     
+	$('#navMenuTop').localScroll({duration:800});
+	
     $('#alert').hide();
     
     $("#formulario").on("submit", function(e) {
