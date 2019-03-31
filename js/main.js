@@ -50,7 +50,7 @@ $(document).ready(function() {
             if(data.message) {
                 $('#responseMessage').text(data.message);
                 //Reseteamos formulario
-                form.closest("form").trigger("reset");       
+                $("#formulario").trigger("reset");       
                 $('#alert').show(); 
             } 
             theBtn.removeClass('disabled'); 
