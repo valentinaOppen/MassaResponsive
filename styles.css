@@ -141,7 +141,7 @@ hr
 .divTitleSitios
 {
     display:grid;
-    grid-template-rows: 50% 50%;
+    /* grid-template-rows: 50% 50%; */
     grid-template-areas: "empty"    
                         "title";
     color:white;    

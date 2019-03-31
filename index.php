@@ -93,25 +93,27 @@
                     </div>
                     <div id="alert" class="alert alert-success hidden" role="alert">
                         <span id="responseMessage"></span>
-                    </div>                           
+                    </div>      
+                    <div class="divBtnEnviar">
                     <button id="btnEnviar" type="submit" class="btn btn-primary">ENVIAR</button> 
+                    </div>                     
                 </form>  
             </div>     
                        
             
-    <div class="footer">
-        <div class="navBarBottom">
-                <div class="divRedesBottom">
-                        <a href="https://twitter.com/SergioMassa" target="_blank"><i style="padding:0" class="fab fa-twitter"></i></a>
-                        <a href="https://www.facebook.com/SergioMassaOK/" target="_blank"><i style="padding:0" class="fab fa-facebook-f fabBottom"></i></a>
-                        <a href="https://www.instagram.com/sergiomassaok" target="_blank"><i style="padding:0" class="fab fa-instagram fabBottom"></i></a>
-                        <a href="https://www.linkedin.com/in/massasergio/" target="_blank"><i style="padding:0" class="fab fa-linkedin fabBottom"></i></a>
-                </div>
-                <div class="hayAlternativa">
-                    #HayAlternativa
-                </div>
+            <div class="footer">
+                <div class="navBarBottom">
+                    <div class="divRedesBottom">
+                            <a href="https://twitter.com/SergioMassa" target="_blank"><i style="padding:0" class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/SergioMassaOK/" target="_blank"><i style="padding:0" class="fab fa-facebook-f fabBottom"></i></a>
+                            <a href="https://www.instagram.com/sergiomassaok" target="_blank"><i style="padding:0" class="fab fa-instagram fabBottom"></i></a>
+                            <a href="https://www.linkedin.com/in/massasergio/" target="_blank"><i style="padding:0" class="fab fa-linkedin fabBottom"></i></a>
+                    </div>
+                    <div class="hayAlternativa">
+                        #HayAlternativa
+                    </div>
+            </div>
         </div>
-    </div>
         </div>        
     </div>  
 	

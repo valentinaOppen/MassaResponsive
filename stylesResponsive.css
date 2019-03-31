@@ -2,7 +2,7 @@
 {
     .gridPrincipal
     {
-        grid-template-rows: 100vh 100vh auto 92vh 55px;
+        grid-template-rows: 100vh 100vh auto auto auto;
 
     }
 
@@ -11,12 +11,18 @@
         height: fit-content;
         padding-bottom:10vw;
     }
+
+    .gridForm
+    {
+        padding-bottom: 3em;
+        padding-top:2em;
+    }
 }
 
 @media screen and (max-width: 780px)  
 {
     .gridPrincipal{
-        grid-template-rows: 100vh 100vh auto 92vh 8vh;
+        grid-template-rows: 100vh 100vh auto auto auto;
     }
 
     #navMenuTop
@@ -96,7 +102,7 @@
       
     .gridPrincipal
     {
-        grid-template-rows:100vh 70vh auto 52vh 55px;
+        grid-template-rows:100vh 80vh auto auto auto;
     }
 
     .gridSitios
@@ -139,7 +145,7 @@
 { 
     .gridPrincipal
     {
-        grid-template-rows: 100vh auto auto 52vh 55px;
+        grid-template-rows: 100vh auto auto auto auto;
     }
 
     .gridMenuTop
@@ -174,7 +180,7 @@
     #textPub
     {
         font-size:1.2em;
-        padding-top: 1.7em;
+        padding-top: 1em;
     }
 
     #textPubTwitter
@@ -182,11 +188,6 @@
         font-size:1.3em;
     }
 
-	.divTitleSitios 
-	{		
-		grid-template-rows: auto;
-    }
-	
     .gridSitios
     {
         /* height: 95vh; */
@@ -251,6 +252,30 @@
         text-align: center;
         margin:auto;
         font-size:20px;
-        padding-top:3%;
+        /* padding-top:3%; */
+    }
+
+    .gridForm
+    {
+        row-gap: 1em;
+    }
+}
+
+@media screen and (device-aspect-ratio: 40/71) 
+{
+    #textPub 
+    {
+        font-size: 1em;
+    }
+
+    .gridSitios 
+    {        
+        grid-template-rows: 60vw 60vw 60vw;        
+        width: 70%;
+    }
+
+    .titleOverlay 
+    {
+        padding-top: 10%;
     }
 }
